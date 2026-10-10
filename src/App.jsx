@@ -1,8 +1,17 @@
 import React from 'react'
+import Button from './components/Button'
+
+
+
 
 const App = () => {
   return (
-    <div className='text-5xl'>App</div>
+    <div >
+
+     <Button text="Download"/>
+     
+      
+    </div>
   )
 }
 
