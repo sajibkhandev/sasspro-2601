@@ -1,16 +1,12 @@
 import React from 'react'
-import Button from './components/Button'
-
-
-
+import Navber from './layouts/Navber'
+import Banner from './layouts/Banner'
 
 const App = () => {
   return (
-    <div >
-
-     <Button text="Download"/>
-     
-      
+    <div>
+      <Navber/>
+      <Banner/>
     </div>
   )
 }
