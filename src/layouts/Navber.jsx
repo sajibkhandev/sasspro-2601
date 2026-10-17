@@ -22,7 +22,7 @@ const Navber = () => {
               <ListItem text="Blog" />
               <ListItem text="Contact" />
             </ul>
-            <Button text="Let's talk" />
+            <Button  text="Let's talk" />
           </Flex>
         </Flex>
       </Container>

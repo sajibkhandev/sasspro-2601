@@ -5,7 +5,9 @@
 @theme {
     --color-primary:#EEF4F9;
     --color-secondary:#2C83BB;
+    --color-third:#112F42;
     --color-offwhite:#ffffff;
     --font-inter:"Inter", sans-serif;
-    
+     --shadow-janina: 0px 7px 40px 0px rgba(0,0,0,0.1);;
+     
 }
