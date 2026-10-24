@@ -6,6 +6,7 @@ import Industry from './layouts/Industry'
 import Product from './layouts/Product'
 import Engage from './layouts/Engage'
 import Pricing from './layouts/Pricing'
+import Footer from './layouts/Footer'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Product/>
       <Engage/>
       <Pricing/>
+      <Footer/>
     </div>
   )
 }

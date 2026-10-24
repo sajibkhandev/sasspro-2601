@@ -10,9 +10,10 @@ import RatingCard from "../components/RatingCard";
 
 const Rating = () => {
   return (
-    <section>
+    <section className="relative">
+      <div className="bg-[#0D554C] absolute -top-0.5 left-0 -z-10 w-full h-[450px] [clip-path:polygon(0%_0%,100%_0%,100%_100%)]"></div>
       <Container>
-        <div className="my-15 bg-offwhite p-12.5 rounded-lg shadow-janina">
+        <div className=" bg-offwhite p-12.5 rounded-lg shadow-janina">
           <Flex className=" justify-between items-center border-b border-[rgba(17,47,66,0.1)] pb-10 mb-10">
             <div>
               <p className="text-sm text-secondary font-bold font-inter">

@@ -8,7 +8,7 @@ import IndustryImageTwo from '../assets/industryimage2.png'
 
 const Industry = () => {
   return (
-    <section className="pb-30">
+    <section className="pb-30 mt-30">
       <Container>
         <Heading className="text-center" text="Industries in focus" />
         <Flex className="justify-between flex-wrap gap-y-7.5 mt-10">
