@@ -30,7 +30,7 @@ const Pricing = () => {
         </Flex>
 
         {condition ? (
-          <Flex className="justify-between">
+          <Flex className="flex-wrap gap-y-5 justify-between">
             <PricingCard
               title="Free Plan"
               price="$0"
@@ -60,7 +60,7 @@ const Pricing = () => {
             />
           </Flex>
         ) : (
-          <Flex className="justify-between">
+          <Flex className="flex-wrap gap-y-5 justify-between">
             <PricingCard
               title="Free Plan"
               price="$0"

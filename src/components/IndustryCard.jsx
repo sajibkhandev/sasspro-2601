@@ -6,8 +6,8 @@ import Image from '../components/Image'
 
 const IndustryCard = ({image,text,title}) => {
   return (
-    <div className="w-[366px] shadow-2xl">
-      <div className="w-[346px] h-[220px] mx-auto mt-2.5">
+    <div className=" w-full md:w-[366px] shadow-2xl">
+      <div className="w-full md:w-[346px] h-[220px] mx-auto mt-2.5">
         <Image src={image}/>
       </div>
       <div className="p-7.5">

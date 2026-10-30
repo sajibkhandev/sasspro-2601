@@ -14,13 +14,13 @@ const Rating = () => {
       <div className="bg-[#0D554C] absolute -top-0.5 left-0 -z-10 w-full h-[450px] [clip-path:polygon(0%_0%,100%_0%,100%_100%)]"></div>
       <Container>
         <div className=" bg-offwhite p-12.5 rounded-lg shadow-janina">
-          <Flex className=" justify-between items-center border-b border-[rgba(17,47,66,0.1)] pb-10 mb-10">
+          <Flex className="flex-wrap justify-center  md:justify-between items-center border-b border-[rgba(17,47,66,0.1)] pb-10 mb-10">
             <div>
-              <p className="text-sm text-secondary font-bold font-inter">
+              <p className="text-center md:text-left text-sm text-secondary font-bold font-inter">
                 Who we are?
               </p>
               <Heading
-                className="w-[750px] pt-4"
+                className="text-center md:text-left md:w-[750px] pt-4"
                 text="More than 5,000 users around the world are already using STDEV actively"
               />
             </div>
@@ -51,7 +51,7 @@ const Rating = () => {
               </p>
             </div>
           </Flex>
-          <Flex className="justify-between">
+          <Flex className="flex-wrap gap-y-6 md:gap-y-0 justify-between">
             <RatingCard image={RatingOne} title="70+" des="Professionals" />
             <RatingCard image={RatingOne} title="70+" des="Professionals" />
             <RatingCard image={RatingOne} title="70+" des="Professionals" />

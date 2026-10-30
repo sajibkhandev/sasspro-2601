@@ -11,10 +11,10 @@ const Footer = () => {
   return (
     <footer className='bg-[#112F42] pt-[97px] '>
         <Container>
-            <Flex>
-                <div className="w-5/12">
+            <Flex className="flex-wrap gap-y-10 justify-evenly px-3 md:px-0">
+                <div className="md:w-5/12">
                  <Image src={Logo}/>
-                 <SubHeading className='w-[392px] pt-6.5 pb-8.5' text="Orem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst augue amet, luctus quis gravida nulla netus ut platea."/>
+                 <SubHeading className='md:w-[392px] pt-6.5 pb-8.5' text="Orem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst augue amet, luctus quis gravida nulla netus ut platea."/>
                  <ul className='flex gap-x-6'>
                     <li><FaFacebookF className='text-white text-lg' /></li>
                     <li><FaInstagram className='text-white text-lg'/></li>
@@ -22,7 +22,7 @@ const Footer = () => {
                  </ul>
                 
                 </div>
-                <div className="w-2/12">
+                <div className="w-full md:w-2/12">
                 <strong className='text-lg text-[rgba(255,255,255,0.9)] font-inter font-semibold'>Company</strong>
                 <ul className='flex flex-col gap-y-4 pt-7'>
                     <FooterList text="About us"/>
@@ -31,7 +31,7 @@ const Footer = () => {
                 </ul>
                     
                 </div>
-                <div className="w-2/12">
+                <div className="w-full md:w-2/12">
                 <strong className='text-lg text-[rgba(255,255,255,0.9)] font-inter font-semibold'>More Links</strong>
                 <ul className='flex flex-col gap-y-4 pt-7'>
                     <FooterList text="Service Details"/>
@@ -40,7 +40,7 @@ const Footer = () => {
                 </ul>
                     
                 </div>
-                <div className="w-3/12">
+                <div className="w-full md:w-3/12">
                 <strong className='text-lg text-[rgba(255,255,255,0.9)] font-inter font-semibold'>Amsterdam Netherlands</strong>
                 <ul className='flex flex-col gap-y-4 pt-7'>
                     <FooterList text="+1 62 19 22 705"/>

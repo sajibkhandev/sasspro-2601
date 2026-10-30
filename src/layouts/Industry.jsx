@@ -11,7 +11,7 @@ const Industry = () => {
     <section className="pb-30 mt-30">
       <Container>
         <Heading className="text-center" text="Industries in focus" />
-        <Flex className="justify-between flex-wrap gap-y-7.5 mt-10">
+        <Flex className="mx-3 md:mx-0 justify-center md:justify-between flex-wrap gap-y-7.5 mt-10">
           <IndustryCard image={IndustryImageOne} title="Janina" text=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum iusto nesciunt praesentium animi consequatur accusantium magnam eos "/>
           <IndustryCard image={IndustryImageTwo} title="Janina" text=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum iusto nesciunt praesentium animi consequatur accusantium magnam eos "/>
           <IndustryCard image={IndustryImageOne} title="Janina" text=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum iusto nesciunt praesentium animi consequatur accusantium magnam eos "/>

@@ -11,11 +11,11 @@ const Engage = () => {
   return (
     <section className='pt-[110px] pb-[70px]'>
         <Container>
-            <Flex className='items-center'>
-                <div className='w-2/4'>
+            <Flex className='flex-wrap items-center'>
+                <div className='md:w-2/4'>
                 <Image  src={EngageImage}/>
                 </div>
-                <div className='w-2/4'>
+                <div className='md:w-2/4 text-center px-3 md:px-0'>
                 <Heading text="Don’t just engage, make it engaging."/>
                  <SubHeading className="pt-11 text-[#495E6C]!" text="Since 1999. For millions of users. We transform businesses with powerful and adaptable digital solutions."/>
                  

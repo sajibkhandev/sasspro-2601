@@ -12,8 +12,8 @@ const Product = () => {
   return (
     <section className='bg-[#F3F3F3] pt-[113px] pb-[70px]'>
         <Container>
-            <Heading className="mx-auto text-center w-92" text="All product work with several devices."/>
-             <SubHeading className="pt-7 mx-auto text-center w-[454px] text-[#495E6C]!" text="A great SaaS UI/UX design can make your product addictive and uncomfortable to give up."/>
+            <Heading className="mx-auto text-center md:w-92" text="All product work with several devices."/>
+             <SubHeading className="px-3 md:px-0 pt-7 mx-auto text-center md:w-[454px] text-[#495E6C]!" text="A great SaaS UI/UX design can make your product addictive and uncomfortable to give up."/>
             <Flex className='justify-center gap-x-5 pt-8.5 pb-13'>
                  <Image src={App}/>
                 <Image src={Windows}/>

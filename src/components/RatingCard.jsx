@@ -11,7 +11,7 @@ const RatingCard = ({image,title,des}) => {
                 
             </div>
             <div>
-                <h2 className="text-[30px] text-secondary font-bold font-inter">{title}</h2>
+                <h2 className="text-2xl md:text-[30px] text-secondary font-bold font-inter">{title}</h2>
                 <SubHeading className="text-[#495E6C]!" text={des}/>
             </div>
         </Flex>
