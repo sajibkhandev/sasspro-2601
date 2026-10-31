@@ -7,6 +7,7 @@ import Button from "../components/Button";
 import Logo from "../assets/logo.png";
 import { FaBars } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 const Navber = () => {
   let [bar,setBar]=useState(false)
@@ -20,16 +21,19 @@ const Navber = () => {
       <nav className="hidden lg:block bg-[#0D554C] py-5.5">
         <Container>
           <Flex className="justify-between items-center">
-            <Image src={Logo} alt="Logo" />
+           <Link to="/"> <Image src={Logo} alt="Logo" /></Link>
 
             <Flex className="gap-x-9 items-center">
               <ul className="flex gap-x-7.5">
-                <ListItem type={true} text="Home" />
+                <Link to="/"><ListItem type={true} text="Home" /></Link>
+                
                 <ListItem type={true} text="Pages" />
-                <ListItem text="About Us" />
+                <Link to="/about"> <ListItem text="About Us" /></Link>
+                <Link to="/contact">  <ListItem text="Contact" /></Link>
+               
                 <ListItem text="Services" />
                 <ListItem text="Blog" />
-                <ListItem text="Contact" />
+               
               </ul>
               <Button text="Let's talk" />
             </Flex>
